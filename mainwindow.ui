@@ -1,0 +1,6143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1574</width>
+    <height>976</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gestion des Clients</string>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>261</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="eq">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>690</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>18</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;
+
+</string>
+     </property>
+     <property name="text">
+      <string>Equipments</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/image (1).png</normaloff>:/home page/image (1).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pro">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>530</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string>Products</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/canned-food.png</normaloff>:/home page/canned-food.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="emp">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>370</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;</string>
+     </property>
+     <property name="text">
+      <string>Employees</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/employees (1).png</normaloff>:/home page/employees (1).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="deli">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>610</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>18</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string>Delivery</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/delivery-bike.png</normaloff>:/home page/delivery-bike.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="cli">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>450</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>19</pointsize>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string>Clients</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/client.png</normaloff>:/home page/client.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>290</y>
+       <width>221</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Rage Italic</family>
+       <pointsize>18</pointsize>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border: 2px solid black;
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string>Home</string>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/home (3).png</normaloff>:/home page/home (3).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>65</width>
+       <height>65</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="setting">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>210</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/gear[1].png</normaloff>:/home page/gear[1].png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="log_out">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>210</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/check-out_(1)_(1)[1].png</normaloff>:/home page/check-out_(1)_(1)[1].png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="meu_button">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>210</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::FocusPolicy::ClickFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid black;
+background-color: rgb(139, 21, 21);
+background-color: rgb(97, 0, 0);
+border-radius: 15px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/home page/menu (2).png</normaloff>:/home page/menu (2).png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>60</width>
+       <height>60</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>211</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/projec_img/saber.png</normaloff>:/projec_img/saber.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>150</width>
+       <height>150</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="chat">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>280</y>
+       <width>221</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 253, 219);
+border-radius: 15px;
+border: 2px solid </string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resources.qrc">
+       <normaloff>:/projec_img/image-removebg-preview.png</normaloff>:/projec_img/image-removebg-preview.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>160</width>
+       <height>160</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>0</y>
+      <width>1571</width>
+      <height>881</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page_home">
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-10</y>
+        <width>1200</width>
+        <height>791</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1200</width>
+        <height>1200</height>
+       </size>
+      </property>
+      <property name="statusTip">
+       <string>ic</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#frame_2{
+border: 2px solid;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 249, 231);
+background-color: rgb(255, 255, 255);
+border-radius: 15px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>50</y>
+         <width>841</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 253, 219);
+border-radius: 15px;
+border: 2px solid </string>
+       </property>
+       <widget class="QLabel" name="label_20">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(139, 21, 21);
+border-color: rgb(0, 0, 0);
+
+font: 28pt &quot;Pristina&quot;;</string>
+        </property>
+        <property name="text">
+         <string>         &quot; Preserving Freshness, One Can at  a  Time &quot;</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_6">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>70</y>
+         <width>111</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+       </property>
+       <property name="text">
+        <string>           Welcome</string>
+       </property>
+       <property name="dragEnabled">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>60</y>
+         <width>63</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border:none;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>160</y>
+         <width>191</width>
+         <height>541</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-left-color: rgb(7, 7, 7);
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 253, 219);</string>
+       </property>
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>191</width>
+          <height>541</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 253, 219);
+border-radius: 15px;
+border: 2px solid </string>
+        </property>
+        <widget class="QCalendarWidget" name="calendarWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>230</y>
+           <width>161</width>
+           <height>261</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">selection-background-color: rgb(170, 0, 0);
+alternate-background-color: rgb(170, 0, 0);
+border: none;</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_product">
+     <widget class="QStackedWidget" name="product_pages">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1331</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::ClickFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="listpage_pro">
+       <widget class="QGroupBox" name="groupBox_20">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>1231</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pro_mange_button">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>mange Products</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pro_statis_button">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_23">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pro_list_button">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>241</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Products list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_68">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="del_6">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/canned-food.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_69">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_70">
+         <property name="geometry">
+          <rect>
+           <x>1170</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_21">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>951</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame
+{
+font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QTableView" name="afficher_pro">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>160</y>
+            <width>481</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>481</width>
+            <height>291</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(133, 144, 121);
+background-color: rgb(255, 241, 226);
+border:1px solid ;
+border-color: rgb(121, 170, 147);</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_10" native="true">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>70</y>
+            <width>791</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_9">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/home page/search.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="search_pro">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>10</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="search_by_pro">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>221</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(247, 255, 229);
+
+</string>
+           </property>
+           <property name="text">
+            <string>             Search BY</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_4">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="    category">    category</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/home page/sort-icon-512x410-1kpy040x.png</normaloff>:/home page/sort-icon-512x410-1kpy040x.png</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="type">type</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>machine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>router</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mouse</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>printer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>cann</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="sort_pro">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Filter</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/home page/filter-outline-filled.png</normaloff>:/home page/filter-outline-filled.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="edit_pro">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>180</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(68, 189, 133);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>  Edit</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/edit - Copy.png</normaloff>:/home page/edit - Copy.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delet_pro">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>280</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(230, 57, 70);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pdf_pro">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>380</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(239, 146, 24);
+border-radius:30px;
+</string>
+          </property>
+          <property name="text">
+           <string> open in pdf </string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/pdf-file[1].png</normaloff>:/home page/pdf-file[1].png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="statisticspage_pro">
+       <widget class="QGroupBox" name="groupBox_21">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>731</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pro_mange_button_3">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>30</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:30px;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>mange Products</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_pro_button">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>30</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color: rgb(171, 168, 111);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_24">
+         <property name="geometry">
+          <rect>
+           <x>1020</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pro_list_button_3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>30</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Products list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="imageq_8">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/canned-food.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_71">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_72">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_73">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>40</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_22">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>150</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="mangepage_pro">
+       <widget class="QGroupBox" name="groupBox_22">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pro_mange_button_2">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>mange Products</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_pro_button_2">
+         <property name="geometry">
+          <rect>
+           <x>740</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_25">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pro_list_button_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>201</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Products list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>1130</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>E:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_23">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="ad_pro">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);</string>
+          </property>
+          <property name="text">
+           <string> add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/10608872-removebg-preview.png</normaloff>:/home page/10608872-removebg-preview.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delete_pro">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>300</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string> delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update_pro">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>190</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);</string>
+          </property>
+          <property name="text">
+           <string> update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/6402235.png</normaloff>:/home page/6402235.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_8">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>90</y>
+            <width>401</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/canned-food.png</normaloff>:/home page/canned-food.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>250</width>
+            <height>1330</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_74">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="img_7">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/canned-food.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_75">
+         <property name="geometry">
+          <rect>
+           <x>1170</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_76">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_del">
+     <widget class="QStackedWidget" name="delivery">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>10</y>
+        <width>1331</width>
+        <height>761</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::ClickFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="listpage_del">
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>1231</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="deliv_mange_button_3">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>mange Delivery</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="deliv_statis_button_3">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="deliv_list_button_3">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>241</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Delivery list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_43">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="del">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/delivery-bike.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_44">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_45">
+         <property name="geometry">
+          <rect>
+           <x>1170</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_6">
+         <property name="geometry">
+          <rect>
+           <x>70</x>
+           <y>160</y>
+           <width>1051</width>
+           <height>611</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame
+{
+font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QWidget" name="widget_5" native="true">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>70</y>
+            <width>791</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_4">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/home page/search.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="Searchdeli">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>10</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="search_by_del_2">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>221</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(247, 255, 229);
+
+</string>
+           </property>
+           <property name="text">
+            <string>             Search BY</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_2">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="    category">    category</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/home page/sort-icon-512x410-1kpy040x.png</normaloff>:/home page/sort-icon-512x410-1kpy040x.png</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="type">type</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>machine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>router</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mouse</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>printer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>cann</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="FILTERdeli">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Filter</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/home page/filter-outline-filled.png</normaloff>:/home page/filter-outline-filled.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="EDITdeli">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>190</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(68, 189, 133);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>  Edit</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/edit - Copy.png</normaloff>:/home page/edit - Copy.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="DELETEdeli">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>290</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(230, 57, 70);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="PDFdeli">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>390</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(239, 146, 24);
+border-radius:30px;
+</string>
+          </property>
+          <property name="text">
+           <string> open in pdf </string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/pdf-file[1].png</normaloff>:/home page/pdf-file[1].png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QToolButton" name="SMSdeli">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>480</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+          </property>
+          <property name="autoFillBackground">
+           <bool>false</bool>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QToolButton {
+    background-color: rgb(68, 189, 133); /* Couleur moutarde */
+    color: #rgb(255, 255, 255); /* Texte noir */
+    border-radius: 27px; /* Coins arrondis */
+    border: 1px solid #000000; /* Bordure grise */
+    font-family: &quot;MV Boli&quot;;; /* Police */
+    font-size: 17px; /* Taille}</string>
+          </property>
+          <property name="text">
+           <string>SMS</string>
+          </property>
+          <property name="checkable">
+           <bool>false</bool>
+          </property>
+          <property name="autoRaise">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QTableWidget" name="tableWidgetdeli">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>170</y>
+            <width>751</width>
+            <height>411</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(133, 144, 121);
+background-color: rgb(255, 241, 226);
+border:1px solid ;
+border-color: rgb(121, 170, 147);</string>
+          </property>
+          <column>
+           <property name="text">
+            <string> ID</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Last Name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>First name</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Phone</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Address</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Price</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>State</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Date</string>
+           </property>
+          </column>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="statisticspage_del">
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>731</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="deliv_mange_button_2">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>30</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:30px;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>mange Delivery</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_deliv_button_2">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>30</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color: rgb(171, 168, 111);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_15">
+         <property name="geometry">
+          <rect>
+           <x>1020</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="deliv_list_button_2">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>30</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Delivery list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="imageq_2">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/delivery-bike.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_35">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_46">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>40</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_7">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>150</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="mangepage_del">
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="deliv_mange_button">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>mange Delivery</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_deliv_button">
+         <property name="geometry">
+          <rect>
+           <x>740</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="deliv_list_button">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>201</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Delivery list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_23">
+         <property name="geometry">
+          <rect>
+           <x>1130</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>E:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_8">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="ADDDELIVERY">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);</string>
+          </property>
+          <property name="text">
+           <string> add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/10608872-removebg-preview.png</normaloff>:/home page/10608872-removebg-preview.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delete_del">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>300</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string> delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update_del">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>190</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);</string>
+          </property>
+          <property name="text">
+           <string> update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/6402235.png</normaloff>:/home page/6402235.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>90</y>
+            <width>401</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/delivery-bike.png</normaloff>:/home page/delivery-bike.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>250</width>
+            <height>1330</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_47">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="img_2">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/delivery-bike.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_48">
+         <property name="geometry">
+          <rect>
+           <x>1170</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_49">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_eq">
+     <widget class="QStackedWidget" name="equipments">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>10</y>
+        <width>1261</width>
+        <height>741</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::ClickFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="listpage">
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1241</width>
+          <height>731</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>mange Equipment</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="list">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>241</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Equipment list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_40">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="eq_6">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/image (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_41">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_42">
+         <property name="geometry">
+          <rect>
+           <x>1160</x>
+           <y>20</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_5">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>160</y>
+           <width>951</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame
+{
+font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QTableView" name="afficher_eq">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>160</y>
+            <width>481</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>481</width>
+            <height>291</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(133, 144, 121);
+background-color: rgb(255, 241, 226);
+border:1px solid ;
+border-color: rgb(121, 170, 147);</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget" native="true">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>50</y>
+            <width>911</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_3">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/home page/search.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="search">
+           <property name="geometry">
+            <rect>
+             <x>430</x>
+             <y>10</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="search_by">
+           <property name="geometry">
+            <rect>
+             <x>190</x>
+             <y>10</y>
+             <width>221</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(247, 255, 229);
+
+</string>
+           </property>
+           <property name="text">
+            <string>             Search </string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="category">
+           <property name="geometry">
+            <rect>
+             <x>600</x>
+             <y>10</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="    category">    category</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/home page/sort-icon-512x410-1kpy040x.png</normaloff>:/home page/sort-icon-512x410-1kpy040x.png</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etat</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>alphabattic sort</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="type">type</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>machine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>router</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mouse</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>printer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>cann</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="sort">
+           <property name="geometry">
+            <rect>
+             <x>790</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Filter</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/home page/filter-outline-filled.png</normaloff>:/home page/filter-outline-filled.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_3">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>10</y>
+             <width>111</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="Search By"/>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>id</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>etat</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>type</string>
+            </property>
+           </item>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="edit">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>180</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(68, 189, 133);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>  Edit</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/edit - Copy.png</normaloff>:/home page/edit - Copy.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delet">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>280</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(230, 57, 70);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pdf">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>380</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(239, 146, 24);
+border-radius:30px;
+</string>
+          </property>
+          <property name="text">
+           <string> open in pdf </string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/pdf-file[1].png</normaloff>:/home page/pdf-file[1].png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <zorder>frame_5</zorder>
+        <zorder>pushButton_7</zorder>
+        <zorder>pushButton_10</zorder>
+        <zorder>lineEdit_4</zorder>
+        <zorder>list</zorder>
+        <zorder>label_40</zorder>
+        <zorder>eq_6</zorder>
+        <zorder>label_41</zorder>
+        <zorder>label_42</zorder>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="statisticspage">
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>841</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButton_15">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color: rgb(171, 168, 111);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_14">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>30</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_16">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Equipment list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>1160</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>690</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_4">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+        </widget>
+        <widget class="QLabel" name="imageq_6">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/image (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_18">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:30px;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>mange Equipment</string>
+         </property>
+        </widget>
+        <zorder>pushButton_18</zorder>
+        <zorder>imageq_6</zorder>
+        <zorder>pushButton_15</zorder>
+        <zorder>lineEdit_14</zorder>
+        <zorder>pushButton_16</zorder>
+        <zorder>label_32</zorder>
+        <zorder>label_34</zorder>
+        <zorder>label_37</zorder>
+        <zorder>frame_4</zorder>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="mangepage">
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>1341</width>
+          <height>751</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>mange Equipment</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>30</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_12">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>20</y>
+           <width>201</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Equipment list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_22">
+         <property name="geometry">
+          <rect>
+           <x>1130</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>E:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_3">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="ad">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);</string>
+          </property>
+          <property name="text">
+           <string> add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/10608872-removebg-preview.png</normaloff>:/home page/10608872-removebg-preview.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delete_3">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>300</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string> delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>190</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);</string>
+          </property>
+          <property name="text">
+           <string> update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/6402235.png</normaloff>:/home page/6402235.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>90</y>
+            <width>401</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/image (1).png</normaloff>:/home page/image (1).png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>250</width>
+            <height>1330</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_36">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="img">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/image (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>1160</x>
+           <y>10</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>690</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <zorder>frame_3</zorder>
+        <zorder>pushButton_9</zorder>
+        <zorder>pushButton_11</zorder>
+        <zorder>lineEdit_5</zorder>
+        <zorder>pushButton_12</zorder>
+        <zorder>label_22</zorder>
+        <zorder>label_36</zorder>
+        <zorder>img</zorder>
+        <zorder>label_33</zorder>
+        <zorder>label_39</zorder>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_cli">
+     <widget class="QStackedWidget" name="clients">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>751</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::ClickFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="listpage_cli">
+       <widget class="QGroupBox" name="groupBox_11">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1231</width>
+          <height>781</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="cli_mange_button">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>mange Clients</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cli_statis_button">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_11">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cli_list_button">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>241</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Clients list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_59">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="del_3">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/client.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_60">
+         <property name="geometry">
+          <rect>
+           <x>700</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_61">
+         <property name="geometry">
+          <rect>
+           <x>1160</x>
+           <y>20</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_12">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>951</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame
+{
+font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QTableView" name="afficher_cli">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>160</y>
+            <width>481</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>481</width>
+            <height>291</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(133, 144, 121);
+background-color: rgb(255, 241, 226);
+border:1px solid ;
+border-color: rgb(121, 170, 147);</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_7" native="true">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>70</y>
+            <width>791</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_8">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/home page/search.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="search_cli">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>10</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="search_by_cli">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>221</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(247, 255, 229);
+
+</string>
+           </property>
+           <property name="text">
+            <string>             Search BY</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_cli">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="    category">    category</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/home page/sort-icon-512x410-1kpy040x.png</normaloff>:/home page/sort-icon-512x410-1kpy040x.png</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="type">type</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>machine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>router</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mouse</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>printer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>cann</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="sort_cli">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Filter</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/home page/filter-outline-filled.png</normaloff>:/home page/filter-outline-filled.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="edit_cli">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>180</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(68, 189, 133);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>  Edit</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/edit - Copy.png</normaloff>:/home page/edit - Copy.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delet_cli">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>280</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(230, 57, 70);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pdf_cli">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>380</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(239, 146, 24);
+border-radius:30px;
+</string>
+          </property>
+          <property name="text">
+           <string> open in pdf </string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/pdf-file[1].png</normaloff>:/home page/pdf-file[1].png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="statisticspage_cli">
+       <widget class="QGroupBox" name="groupBox_12">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1321</width>
+          <height>721</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="cli_mange_button_3">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>30</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:30px;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>mange Clients</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_cli_button_2">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>30</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color: rgb(171, 168, 111);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_17">
+         <property name="geometry">
+          <rect>
+           <x>1020</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cli_list_button_3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>30</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Clients list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="imageq_4">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/client.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_62">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_63">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_64">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>40</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_13">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>150</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="mangepage_cli">
+       <widget class="QGroupBox" name="groupBox_13">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1331</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="cli_mange_button_2">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>mange Clients</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_cli_button">
+         <property name="geometry">
+          <rect>
+           <x>740</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_12">
+         <property name="geometry">
+          <rect>
+           <x>1010</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="cli_list_button_2">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>201</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Clients list</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_14">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>180</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="ad_cli">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);</string>
+          </property>
+          <property name="text">
+           <string> add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/10608872-removebg-preview.png</normaloff>:/home page/10608872-removebg-preview.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delete_cli">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>300</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string> delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update_cli">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>190</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);</string>
+          </property>
+          <property name="text">
+           <string> update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/6402235.png</normaloff>:/home page/6402235.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>90</y>
+            <width>401</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/client.png</normaloff>:/home page/client.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>250</width>
+            <height>1330</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_65">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="img_4">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/client.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_66">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_67">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_emp">
+     <widget class="QStackedWidget" name="employees">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1281</width>
+        <height>751</height>
+       </rect>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::FocusPolicy::ClickFocus</enum>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="listpage_emp">
+       <widget class="QGroupBox" name="groupBox_14">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1231</width>
+          <height>781</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="emp_mange_button">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>mange Employees</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="emp_statis_button">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>20</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="geometry">
+          <rect>
+           <x>1030</x>
+           <y>40</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="emp_list_button">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>10</y>
+           <width>241</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Employees list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_77">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>10</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="del_4">
+         <property name="geometry">
+          <rect>
+           <x>390</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/employees (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_78">
+         <property name="geometry">
+          <rect>
+           <x>700</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_79">
+         <property name="geometry">
+          <rect>
+           <x>1160</x>
+           <y>20</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_15">
+         <property name="geometry">
+          <rect>
+           <x>80</x>
+           <y>160</y>
+           <width>951</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QFrame
+{
+font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+}
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QTableView" name="afficher_emp">
+          <property name="geometry">
+           <rect>
+            <x>110</x>
+            <y>160</y>
+            <width>481</width>
+            <height>291</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>481</width>
+            <height>291</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(133, 144, 121);
+background-color: rgb(255, 241, 226);
+border:1px solid ;
+border-color: rgb(121, 170, 147);</string>
+          </property>
+         </widget>
+         <widget class="QWidget" name="widget_8" native="true">
+          <property name="geometry">
+           <rect>
+            <x>90</x>
+            <y>70</y>
+            <width>791</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <widget class="QLabel" name="label_10">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>41</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="resources.qrc">:/home page/search.png</pixmap>
+           </property>
+           <property name="scaledContents">
+            <bool>true</bool>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="search_emp">
+           <property name="geometry">
+            <rect>
+             <x>320</x>
+             <y>10</y>
+             <width>131</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="search_by_emp">
+           <property name="geometry">
+            <rect>
+             <x>80</x>
+             <y>10</y>
+             <width>221</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+background-color: rgb(247, 255, 229);
+
+</string>
+           </property>
+           <property name="text">
+            <string>             Search BY</string>
+           </property>
+          </widget>
+          <widget class="QComboBox" name="comboBox_emp">
+           <property name="geometry">
+            <rect>
+             <x>470</x>
+             <y>10</y>
+             <width>171</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::FocusPolicy::ClickFocus</enum>
+           </property>
+           <property name="contextMenuPolicy">
+            <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{color: rgb(0, 0, 0);
+background-color: rgb(247, 255, 229);}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string extracomment="    category">    category</string>
+            </property>
+            <property name="icon">
+             <iconset resource="resources.qrc">
+              <normaloff>:/home page/sort-icon-512x410-1kpy040x.png</normaloff>:/home page/sort-icon-512x410-1kpy040x.png</iconset>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string extracomment="type">type</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>pc</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>machine</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>router</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>mouse</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>printer</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>cann</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string/>
+            </property>
+           </item>
+          </widget>
+          <widget class="QPushButton" name="sort_emp">
+           <property name="geometry">
+            <rect>
+             <x>670</x>
+             <y>10</y>
+             <width>101</width>
+             <height>41</height>
+            </rect>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(18, 115, 83);
+color: rgb(255, 255, 255);</string>
+           </property>
+           <property name="text">
+            <string>Filter</string>
+           </property>
+           <property name="icon">
+            <iconset resource="resources.qrc">
+             <normaloff>:/home page/filter-outline-filled.png</normaloff>:/home page/filter-outline-filled.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>25</width>
+             <height>25</height>
+            </size>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="edit_emp">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>180</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::ContextMenuPolicy::CustomContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(68, 189, 133);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>  Edit</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/edit - Copy.png</normaloff>:/home page/edit - Copy.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delet_emp">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>280</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton
+{border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(230, 57, 70);
+border-radius:30px;}
+</string>
+          </property>
+          <property name="text">
+           <string>Delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>50</width>
+            <height>50</height>
+           </size>
+          </property>
+          <property name="flat">
+           <bool>false</bool>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pdf_emp">
+          <property name="geometry">
+           <rect>
+            <x>670</x>
+            <y>380</y>
+            <width>211</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::StrongFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(239, 146, 24);
+border-radius:30px;
+</string>
+          </property>
+          <property name="text">
+           <string> open in pdf </string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/pdf-file[1].png</normaloff>:/home page/pdf-file[1].png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="statisticspage_emp">
+       <widget class="QGroupBox" name="groupBox_17">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1321</width>
+          <height>721</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="emp_mange_button_3">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>30</y>
+           <width>231</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+border-radius:30px;
+color: rgb(0, 0, 0);</string>
+         </property>
+         <property name="text">
+          <string>mange Employees</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="statis_emp_button_3">
+         <property name="geometry">
+          <rect>
+           <x>730</x>
+           <y>30</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+background-color: rgb(171, 168, 111);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;
+color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_20">
+         <property name="geometry">
+          <rect>
+           <x>1020</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="emp_list_button_3">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>30</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Employees list</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="imageq_7">
+         <property name="geometry">
+          <rect>
+           <x>380</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/employees (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_80">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_81">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>30</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_82">
+         <property name="geometry">
+          <rect>
+           <x>710</x>
+           <y>40</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_18">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>150</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="mangepage_emp">
+       <widget class="QGroupBox" name="groupBox_18">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>1331</width>
+          <height>741</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string/>
+        </property>
+        <widget class="QPushButton" name="emp_mange_button_2">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>10</y>
+           <width>251</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(171, 168, 111);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>mange Employees</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="emp_statis_button_2">
+         <property name="geometry">
+          <rect>
+           <x>740</x>
+           <y>20</y>
+           <width>221</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 700 15pt &quot;Terminal&quot;;
+border-radius:30px;</string>
+         </property>
+         <property name="text">
+          <string>statistics</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_16">
+         <property name="geometry">
+          <rect>
+           <x>1010</x>
+           <y>50</y>
+           <width>113</width>
+           <height>28</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 249, 231);
+font: 20pt &quot;Rage Italic&quot;;
+color: rgb(148, 125, 66);</string>
+         </property>
+         <property name="text">
+          <string>           Welcome</string>
+         </property>
+         <property name="dragEnabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="emp_list_button_2">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>20</y>
+           <width>201</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::FocusPolicy::ClickFocus</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 700 15pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="text">
+          <string>Employees list</string>
+         </property>
+        </widget>
+        <widget class="QFrame" name="frame_19">
+         <property name="geometry">
+          <rect>
+           <x>120</x>
+           <y>180</y>
+           <width>1071</width>
+           <height>481</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 9pt &quot;Terminal&quot;;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius:30px;
+</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::Shape::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Shadow::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="ad_emp">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>80</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);</string>
+          </property>
+          <property name="text">
+           <string> add</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/10608872-removebg-preview.png</normaloff>:/home page/10608872-removebg-preview.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>40</width>
+            <height>40</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="delete_emp">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>300</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+</string>
+          </property>
+          <property name="text">
+           <string> delete</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/bin.png</normaloff>:/home page/bin.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="update_emp">
+          <property name="geometry">
+           <rect>
+            <x>160</x>
+            <y>190</y>
+            <width>191</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::FocusPolicy::ClickFocus</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">border: 1.5px solid black;
+color: rgb(255, 255, 255);
+font: 12pt &quot;Segoe UI&quot;;
+background-color: rgb(171, 168, 111);</string>
+          </property>
+          <property name="text">
+           <string> update</string>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/6402235.png</normaloff>:/home page/6402235.png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>36</width>
+            <height>36</height>
+           </size>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>90</y>
+            <width>401</width>
+            <height>301</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+          <property name="icon">
+           <iconset resource="resources.qrc">
+            <normaloff>:/home page/employees (1).png</normaloff>:/home page/employees (1).png</iconset>
+          </property>
+          <property name="iconSize">
+           <size>
+            <width>250</width>
+            <height>1330</height>
+           </size>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QLabel" name="label_83">
+         <property name="geometry">
+          <rect>
+           <x>110</x>
+           <y>20</y>
+           <width>61</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/complete[1].png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="openExternalLinks">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="img_6">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>20</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/employees (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_84">
+         <property name="geometry">
+          <rect>
+           <x>1150</x>
+           <y>30</y>
+           <width>63</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/user (1).png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_85">
+         <property name="geometry">
+          <rect>
+           <x>720</x>
+           <y>30</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="resources.qrc">:/home page/2636315.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

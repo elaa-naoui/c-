@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit</class>
+ <widget class="QDialog" name="edit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>50</y>
+     <width>881</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:2px solid green;
+border-radius: 20px;
+</string>
+   </property>
+   <widget class="QLineEdit" name="id_edit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>110</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border_radius:15px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_10">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>      Equipment id</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_14">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>280</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> Suppervision date</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_25">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>200</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>     Type</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_28">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>360</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>         Statement</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="type_edit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>190</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+    border: 3px solid green;   /* Bordure verte de 3px */
+    border-radius: 20px;       /* Coins arrondis */
+    background-color: white;   /* Fond blanc */
+    padding: 10px 20px;        /* Ajout d'espace intérieur pour le texte */
+}
+
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>pc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>machine</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>cann</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>printer</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>mouse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>screen</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>keyboard</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>swicher</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>router</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>270</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border_radius:10px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="edit_cancel">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>450</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(97, 0, 0);
+border-radius:30px;
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="confirm_edit">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>450</y>
+      <width>131</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);
+border-radius:30px;
+</string>
+    </property>
+    <property name="text">
+     <string>Confirm</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="etat_edit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>350</y>
+      <width>241</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+    border: 3px solid green;   /* Bordure verte de 3px */
+    border-radius: 20px;       /* Coins arrondis */
+    background-color: white;   /* Fond blanc */
+    padding: 10px 20px;        /* Ajout d'espace intérieur pour le texte */
+}
+
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>fonctional</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>broken</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>available</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>out of stock</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="confirm_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>20</y>
+      <width>601</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid black;
+color: rgb(255, 255, 255);
+font: 10pt ;
+background-color: rgb(171, 168, 111);
+background-color: rgb(70, 148, 119);
+border-radius:30px;
+</string>
+    </property>
+    <property name="text">
+     <string>Edit  Equipment</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>36</width>
+      <height>36</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_30">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>470</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/home page/391247.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_29">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>470</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/home page/4682662.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>confirm_edit</zorder>
+   <zorder>edit_cancel</zorder>
+   <zorder>id_edit</zorder>
+   <zorder>lineEdit_10</zorder>
+   <zorder>lineEdit_14</zorder>
+   <zorder>lineEdit_25</zorder>
+   <zorder>lineEdit_28</zorder>
+   <zorder>type_edit</zorder>
+   <zorder>dateEdit</zorder>
+   <zorder>etat_edit</zorder>
+   <zorder>confirm_2</zorder>
+   <zorder>label_30</zorder>
+   <zorder>label_29</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

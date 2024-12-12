@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>277</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>141</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(170, 0, 0);</string>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>141</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: red;
+    color: red; 
+}</string>
+        </property>
+        <property name="text">
+         <string>Gestion client </string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>client.png</normaloff>client.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: red;</string>
+        </property>
+        <property name="text">
+         <string>Gestion employées</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>employées.png</normaloff>employées.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(158, 158, 158);
+background-color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Gestion produit</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>prod.png</normaloff>prod.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(158, 158, 158);
+background-color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Gestion livraison</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>livraison.png</normaloff>livraison.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(158, 158, 158);
+background-color: rgb(170, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Gestion equipement</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>eq.png</normaloff>eq.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton_14">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>21</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(170, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="QIcon::ThemeIcon::FormatJustifyLeft"/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTableWidget" name="tableau">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>60</y>
+      <width>381</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>9</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ContextMenuPolicy::ActionsContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 0, 0);
+font: 700 9pt &quot;Georgia&quot;;
+background-color: rgb(234, 235, 255);</string>
+    </property>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>Nom de produit</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>date de conservation  </string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>date d’expiration   </string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>quantité</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>poid</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>lieux de storage    </string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>catégorie</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>client</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>170</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+     <property name="foreground">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>170</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>tomate</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>20/10/2025</string>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string>50KG</string>
+     </property>
+    </item>
+    <item row="5" column="6">
+     <property name="text">
+      <string>legume</string>
+     </property>
+    </item>
+    <item row="5" column="7">
+     <property name="text">
+      <string>millie</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>10</y>
+      <width>37</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Admin</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::TextFormat::MarkdownText</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>262</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Créer</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(170, 0, 0);
+</string>
+       </property>
+       <property name="text">
+        <string>Lire</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>0</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>10</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>loope.png</normaloff>loope.png</iconset>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>search..</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>131</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>111</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QSpinBox" name="spinBox">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(63, 63, 63);
+font: 700 11pt &quot;Georgia&quot;;
+font: 700 9pt &quot;Segoe UI&quot;;</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(170, 0, 0);
+background-color: rgb(210, 216, 255);
+font: 700 11pt &quot;Georgia&quot;;
+font: 700 9pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Tous les types</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Légumes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fruits</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sauces</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(63, 63, 63);
+font: 700 11pt &quot;Georgia&quot;;
+font: 700 9pt &quot;Segoe UI&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>calendrier</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_12">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(63, 63, 63);
+font: 700 11pt &quot;Georgia&quot;;
+font: 700 9pt &quot;Segoe UI&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Afficher les statistiques</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(63, 63, 63);
+font: 700 11pt &quot;Georgia&quot;;
+font: 700 9pt &quot;Segoe UI&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>Exporter en PDF</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>689</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menugestion_produit">
+    <property name="title">
+     <string>gestion produit</string>
+    </property>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menugestion_produit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
